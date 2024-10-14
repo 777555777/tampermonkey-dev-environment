@@ -1,0 +1,20 @@
+{
+  "name": "tampermonkey-dev-environment",
+  "version": "0.1.0",
+  "description": "Environment for developing Tampermonkey scripts with Typescript and ESM",
+  "license": "MIT",
+  "author": "777555777",
+  "type": "module",
+  "exports": "./src/main.js",
+  "scripts": {
+    "build": "vite build",
+    "test": "node --test || echo \"Error: There are no tests\" && exit 1",
+    "bs": "npm run build"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.5",
+    "rollup-plugin-userscript-metablock": "^0.4.2",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.9"
+  }
+}

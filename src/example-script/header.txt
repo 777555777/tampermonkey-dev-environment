@@ -1,0 +1,10 @@
+// ==UserScript==
+// @name         example-script.js
+// @namespace    http://tampermonkey.net/
+// @version      1.0
+// @description  Example
+// @author       777555777
+// @match        https://www.google.com
+// @homepage     https://www.google.com
+// @grant        none
+// ==/UserScript==
